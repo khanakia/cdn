@@ -1611,5 +1611,7 @@ var JqxGrid = function (_React$Component) {
     return JqxGrid;
 }(_react2.default.Component);
 
-exports.default = JqxGrid;
 ;
+
+window.JqxGrid = JqxGrid;
+exports.default = JqxGrid;

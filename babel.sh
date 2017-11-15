@@ -1,1 +1,3 @@
-babel src/react_jqxgrid.js --out-file grid-compiled.js
+babel react_jqxgrid.js --out-file react_jqxgrid-compiled.js
+browserify react_jqxgrid-compiled.js -o jqxgrid.js
+

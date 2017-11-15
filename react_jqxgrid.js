@@ -9,7 +9,7 @@ const JQXLite = window.JQXLite;
 
 export const jqx = window.jqx;
 
-export default class JqxGrid extends React.Component {
+class JqxGrid extends React.Component {
     componentDidMount() {
         let options = this.manageAttributes();
         this.createComponent(options);
@@ -1140,3 +1140,5 @@ export default class JqxGrid extends React.Component {
     };
 };
 
+window.JqxGrid = JqxGrid
+export default JqxGrid
